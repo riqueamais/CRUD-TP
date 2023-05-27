@@ -42,10 +42,6 @@
             ((System.ComponentModel.ISupportInitialize)bsDetalhe).BeginInit();
             SuspendLayout();
             // 
-            // bsDetalhe
-            // 
-            bsDetalhe.DataSource = typeof(DAL.Agenda);
-            // 
             // textBox1
             // 
             textBox1.DataBindings.Add(new Binding("Text", bsDetalhe, "Nome", true));
@@ -121,11 +117,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(77, 9);
+            label4.Location = new Point(35, 9);
             label4.Name = "label4";
-            label4.Size = new Size(202, 22);
+            label4.Size = new Size(283, 22);
             label4.TabIndex = 8;
-            label4.Text = "Adicione um Usuário";
+            label4.Text = "Adicione ou Edite um Usuário";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // frmDetalhe
